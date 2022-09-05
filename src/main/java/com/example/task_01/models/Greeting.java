@@ -1,5 +1,6 @@
 package com.example.task_01.models;
 
+//POJO - MVP
 public class Greeting {
 
     private String name;
