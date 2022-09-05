@@ -22,7 +22,7 @@ public class Task01Controller {
 //    }
     // IN URL type: /greeting?timeOfDay=evening&name=April
 
-    //Extension 2 - Celebration DTO method
+    //Extension 2 - Celebration DTO method (didn't have time to finish this before the review)
     @GetMapping (value = "/christmas")
     public Celebration festiveGreeting(){
         return new Celebration("merry christmas!");
